@@ -1,0 +1,17 @@
+{
+  "name": "teaboom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "sass css/style.scss:css/style.css --watch --style expanded",
+    "build": "sass css/style.scss:css/style.css --style compressed",
+    "preview": "npx serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.105.2"
+  }
+}
